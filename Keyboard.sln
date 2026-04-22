@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# TcXaeShell Solution File, Format Version 11.00
+VisualStudioVersion = 17.10.35827.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FE7A1B72-C5B7-4D7C-BB7D-76384D4DE8E1}") = "Keyboard", "Keyboard\Keyboard.hmiproj", "{411F8B55-E1FB-4BDF-BF4E-6382554BF8C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|TwinCAT HMI = Debug|TwinCAT HMI
+		Release|TwinCAT HMI = Release|TwinCAT HMI
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{411F8B55-E1FB-4BDF-BF4E-6382554BF8C5}.Debug|TwinCAT HMI.ActiveCfg = Debug|TwinCAT HMI
+		{411F8B55-E1FB-4BDF-BF4E-6382554BF8C5}.Debug|TwinCAT HMI.Build.0 = Debug|TwinCAT HMI
+		{411F8B55-E1FB-4BDF-BF4E-6382554BF8C5}.Release|TwinCAT HMI.ActiveCfg = Release|TwinCAT HMI
+		{411F8B55-E1FB-4BDF-BF4E-6382554BF8C5}.Release|TwinCAT HMI.Build.0 = Release|TwinCAT HMI
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00513B66-008D-45CA-9E2D-9A07AB4E6A59}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,103 @@
+.tchmi-keyboard-template-padding-container {
+    background: #e8eaf0;
+    border-radius: 12px;
+    padding: 0px;
+}
+
+.tchmi-keyboard-template-key {
+    background: #ffffff;
+    color: #333333;
+    border: 0.5px solid #cccccc;
+    border-radius: 6px;
+    box-shadow: 0 2px 0 #b0b0b0;
+    transition: background 0.1s, transform 0.1s, box-shadow 0.1s, color 0.1s;
+}
+
+    /* Hover touche normale */
+    .tchmi-keyboard-template-key:hover {
+        background: #e0e4f0;
+        border-color: #aab0c8;
+        box-shadow: 0 3px 0 #9099b8;
+        color: #111111;
+        transform: translateY(-1px);
+    }
+
+    /* Active touche normale */
+    .tchmi-keyboard-template-key:active {
+        transform: translateY(1px);
+        box-shadow: none;
+        background: #d0d4e8;
+    }
+
+/* Touche Entrée */
+[data-code="Enter"],
+[data-code="NumpadEnter"] {
+    background: #1D9E75;
+    color: #ffffff;
+    border-color: #0F6E56;
+    box-shadow: 0 2px 0 #085041;
+    transition: background 0.1s, transform 0.1s, box-shadow 0.1s;
+}
+
+    /* Hover touche Entrée */
+    [data-code="Enter"]:hover,
+    [data-code="NumpadEnter"]:hover {
+        background: #22b585;
+        border-color: #1D9E75;
+        box-shadow: 0 3px 0 #0F6E56;
+        transform: translateY(-1px);
+    }
+
+    /* Active touche Entrée */
+    [data-code="Enter"]:active,
+    [data-code="NumpadEnter"]:active {
+        background: #178a64;
+        transform: translateY(1px);
+        box-shadow: none;
+    }
+
+/* Touches spéciales (Shift, Backspace...) */
+[data-type="edit"],
+[data-type="modifier"] {
+    background: #dde0e8;
+    color: #666666;
+    transition: background 0.1s, transform 0.1s, box-shadow 0.1s;
+}
+
+    /* Hover touches spéciales */
+    [data-type="edit"]:hover,
+    [data-type="modifier"]:hover {
+        background: #c8ccd8;
+        color: #333333;
+        border-color: #aab0c0;
+        box-shadow: 0 3px 0 #9099a8;
+        transform: translateY(-1px);
+    }
+
+    /* Active touches spéciales */
+    [data-type="edit"]:active,
+    [data-type="modifier"]:active {
+        background: #b8bcc8;
+        transform: translateY(1px);
+        box-shadow: none;
+    }
+
+/* Touches actions (flèches) */
+[data-type="action"] {
+    background: #dde0e8;
+    color: #666666;
+    transition: background 0.1s, transform 0.1s, box-shadow 0.1s;
+}
+
+    [data-type="action"]:hover {
+        background: #c8ccd8;
+        color: #333333;
+        border-color: #aab0c0;
+        box-shadow: 0 3px 0 #9099a8;
+        transform: translateY(-1px);
+    }
+
+    [data-type="action"]:active {
+        transform: translateY(1px);
+        box-shadow: none;
+    }
